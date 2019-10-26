@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Prist | Gatsby & Prismic Starter`,
-        description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
-    author: `Marguerite Roth | marguerite.io`,
+    title: `Georna Sound`,
+        description: `Music Production based in Norfolk, UK.`,
+    author: `George Williams`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +26,7 @@ module.exports = {
     {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
-            repositoryName: 'georna-sound.prismic.io', // (REQUIRED, replace with your own)
+            repositoryName: 'georna-sound',
             linkResolver: () => post => `/${post.uid}`,
         }
     },
