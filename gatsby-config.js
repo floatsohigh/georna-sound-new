@@ -26,7 +26,7 @@ module.exports = {
     {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
-            repositoryName: 'georna-sound',
+            repositoryName: 'REPO-NAME',
             linkResolver: () => post => `/${post.uid}`,
         }
     },
